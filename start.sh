@@ -52,7 +52,7 @@ create_env
 /bin/sh busy-wait.sh $DATABASE_URL
 
 ## SOLR
-python3 docker_solr_init.py sapl saplsolr &
+python3 solr_api.py sapl saplsolr &
 
 # manage.py migrate --noinput nao funcionava
 yes yes | python3 manage.py migrate

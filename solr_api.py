@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
     args = sys.argv
     if len(args) < 2:
-        print("Usage: python3 docker_solr_init.py <collection name> <address> [port]")
+        print("Usage: python3 solr_api.py <collection name> <address> [port]")
         sys.exit(-1)
     collection = args[1]
 
